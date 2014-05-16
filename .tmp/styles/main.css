@@ -1,0 +1,270 @@
+body {
+  color: black;
+  min-width: 1020px; }
+
+a {
+  color: #4183c5; }
+
+
+
+.leftcontainer {
+  margin-left: 10px; }
+
+.topbar {
+  background-image: linear-gradient(#f9f9f9, #f3f3f3);
+  height: 50px;
+  min-width: 1020px;
+  margin-right: auto;
+  margin-left: auto; }
+
+.maincontent {
+  width: 1020px;
+  margin-right: auto;
+  margin-left: auto; }
+
+.sidebar {
+  display: inline-block;
+  float: left;
+  width: 25%;
+  height: 800px;
+  background: #fff; }
+
+.avatarimage {
+  background-size: cover;
+  border-radius: 7px;
+  background-image: url("https://avatars.githubusercontent.com/u/7440065?");
+  width: 230px;
+  height: 230px;
+  background-size: 100%;
+  margin-top: 20px; }
+
+.rightbar {
+  display: inline-block;
+  float: left;
+  margin-left: 25px;
+  width: 70%; }
+
+.repotop {
+  display: inline-block;
+  margin-left: 10px; }
+
+.repofield {
+  background: #fff;
+  border-top: 1px solid #cacaca; }
+
+.repoicon {
+  display: inline-block;
+  height: 35px;
+  width: 39px;
+  margin-bottom: 20px;
+  margin-top: 16px;
+  float: left;
+  background-image: url("/images/book.png");
+  background-size: cover; }
+
+.repostuff {
+  display: inline-block;
+  width: 100%; }
+
+.repotitle {
+  display: inline-block;
+  background: #fff;
+  font-family: Helvetica;
+  color: #4183c4;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: bold;
+  margin-top: 20px; }
+
+.repobody {
+  display: inline-block;
+  margin-left: 50px; }
+
+.repodescrip {
+  display: block;
+  font-size: 13px;
+  line-height: 20px;
+  color: #333333; }
+
+.stargazers {
+  display: inline-block;
+  font-family: Helvetica;
+  color: #666666;
+  text-decoration: none;
+  font-size: 11px;
+  font-weight: bold;
+  float: right; }
+
+.star {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  background-image: url("/images/star.png");
+  background-size: cover;
+  float: right; }
+
+.forks {
+  display: inline-block;
+  font-family: Helvetica;
+  color: #666666;
+  text-decoration: none;
+  font-size: 11px;
+  font-weight: bold;
+  float: right; }
+
+.fork {
+  display: inline-block;
+  background-image: url("/images/fork.png");
+  background-size: cover;
+  height: 20px;
+  width: 20px;
+  float: right; }
+
+.language {
+  display: inline-block;
+  font-family: Helvetica;
+  color: #666666;
+  text-decoration: none;
+  font-size: 11px;
+  font-weight: bold;
+  float: right; }
+
+.repoupdatedat {
+  display: block;
+  font-size: 11px;
+  color: #999999;
+  line-height: 24px; }
+
+.repostuff {
+  vertical-align: top; }
+
+.footer {
+  display: inline-block;
+  height: 100px;
+  width: 100%;
+  background: #cacaca; }
+
+.leftname {
+  font-size: 26px;
+  line-height: 30px;
+  font-weight: bold;
+  font-family: Helvetica;
+  margin-top: 10px; }
+
+.leftusername {
+  font-size: 19px;
+  line-height: 24px;
+  font-weight: 300;
+  font-family: Helvetica;
+  margin-bottom: 15px;
+  color: #cacaca; }
+
+.leftfieldinfo {
+  font-family: Helvetica;
+  padding: 4px 0 2px 4px;
+  text-overflow: ellipsis;
+  font-size: 14px; }
+
+.leftfieldsmallpic {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  float: left;
+  background-image: url("/images/justme.png");
+  background-size: cover;
+  margin-right: 5px; }
+
+.leftfieldsmallpic2 {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  float: left;
+  background-image: url("/images/mapdot.png");
+  background-size: cover;
+  margin-right: 5px; }
+
+.leftfieldsmallpic3 {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  float: left;
+  background-image: url("/images/maillogo.png");
+  background-size: cover;
+  margin-right: 5px; }
+
+.leftfieldsmallpic4 {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  float: left;
+  background-image: url("/images/linklogo.png");
+  background-size: cover;
+  margin-right: 5px; }
+
+.leftfieldsmallpic5 {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  float: left;
+  background-image: url("/images/clocklogo.png");
+  background-size: cover;
+  margin-right: 5px; }
+
+.bottomleftfieldinfo {
+  font-family: Helvetica;
+  padding: 4px 0 2px 4px;
+  text-overflow: ellipsis;
+  font-size: 14px;
+  margin-bottom: 18px; }
+
+.leftfieldstats {
+  font-family: Helvetica;
+  padding: 13px 0 2px 4px;
+  text-overflow: ellipsis;
+  font-size: 14px;
+  border-top: 1px solid #cacaca;
+  display: inline-block;
+  width: 230px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #cacaca; }
+
+.topleftfield {
+  font-family: Helvetica;
+  margin-right: 50px;
+  text-overflow: ellipsis;
+  font-size: 14px;
+  border-top: 1px solid #cacaca;
+  padding-top: 17px; }
+
+.followers {
+  display: inline-block;
+  float: left;
+  margin-left: 10px;
+  color: #000000; }
+
+.starred {
+  display: inline-block;
+  float: left;
+  margin-left: 35px; }
+
+.following {
+  display: inline-block;
+  float: left;
+  margin-left: 35px; }
+
+.leftfieldstatsnumber {
+  text-align: center;
+  font-size: 27px;
+  font-family: Helvetica;
+  font-weight: bold;
+  color: blue; }
+
+.leftfieldstatstext {
+  font-size: 11px;
+  color: #cacaca;
+  text-align: center;
+  font-family: Helvetica; }
+
+.followershover {
+  color: red; }
