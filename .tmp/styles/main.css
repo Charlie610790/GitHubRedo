@@ -5,14 +5,18 @@ body {
 a {
   color: #4183c5; }
 
+.wrapper {
+  margin: 0px auto; }
 
+.container {
+  margin: 0px auto; }
 
 .leftcontainer {
   margin-left: 10px; }
 
 .topbar {
   background-image: linear-gradient(#f9f9f9, #f3f3f3);
-  height: 50px;
+  height: 40px;
   min-width: 1020px;
   margin-right: auto;
   margin-left: auto; }
@@ -50,7 +54,8 @@ a {
 
 .repofield {
   background: #fff;
-  border-top: 1px solid #cacaca; }
+  border-top: 1px solid #cacaca;
+  max-height: 121px; }
 
 .repoicon {
   display: inline-block;
@@ -58,6 +63,8 @@ a {
   width: 39px;
   margin-bottom: 20px;
   margin-top: 16px;
+  background: red;
+  margin-bottom: 35px;
   float: left;
   background-image: url("/images/book.png");
   background-size: cover; }
@@ -88,7 +95,6 @@ a {
   color: #333333; }
 
 .stargazers {
-  display: inline-block;
   font-family: Helvetica;
   color: #666666;
   text-decoration: none;
@@ -97,15 +103,14 @@ a {
   float: right; }
 
 .star {
-  display: inline-block;
   height: 20px;
   width: 20px;
   background-image: url("/images/star.png");
   background-size: cover;
-  float: right; }
+  float: right;
+  margin-left: 15px; }
 
 .forks {
-  display: inline-block;
   font-family: Helvetica;
   color: #666666;
   text-decoration: none;
@@ -114,15 +119,14 @@ a {
   float: right; }
 
 .fork {
-  display: inline-block;
   background-image: url("/images/fork.png");
   background-size: cover;
   height: 20px;
   width: 20px;
-  float: right; }
+  float: right;
+  margin-left: 15px; }
 
 .language {
-  display: inline-block;
   font-family: Helvetica;
   color: #666666;
   text-decoration: none;
@@ -135,9 +139,6 @@ a {
   font-size: 11px;
   color: #999999;
   line-height: 24px; }
-
-.repostuff {
-  vertical-align: top; }
 
 .footer {
   display: inline-block;
@@ -235,36 +236,177 @@ a {
   text-overflow: ellipsis;
   font-size: 14px;
   border-top: 1px solid #cacaca;
-  padding-top: 17px; }
+  padding-top: 17px;
+  width: 230px; }
 
 .followers {
   display: inline-block;
   float: left;
   margin-left: 10px;
   color: #000000; }
+  .followers:hover {
+    color: #4183c4; }
 
 .starred {
   display: inline-block;
   float: left;
   margin-left: 35px; }
+  .starred:hover {
+    color: #4183c4; }
 
 .following {
   display: inline-block;
   float: left;
   margin-left: 35px; }
+  .following:hover {
+    color: #4183c4; }
 
 .leftfieldstatsnumber {
   text-align: center;
   font-size: 27px;
   font-family: Helvetica;
-  font-weight: bold;
-  color: blue; }
+  font-weight: bold; }
+  .leftfieldstatsnumber:hover {
+    color: #4183c4; }
 
 .leftfieldstatstext {
   font-size: 11px;
   color: #cacaca;
   text-align: center;
   font-family: Helvetica; }
+  .leftfieldstatstext:hover {
+    color: #4183c4; }
 
-.followershover {
-  color: red; }
+.logo {
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  float: left;
+  margin-top: 5px;
+  margin-left: 200px;
+  background-image: url("/images/logo.png");
+  background-size: cover; }
+  .logo:hover {
+    background-image: url("/images/logo-hover.png"); }
+
+.topbar-container {
+  display: inline-block;
+  width: 1020px;
+  margin-right: auto;
+  margin-left: auto; }
+
+.topbar-dot {
+  display: inline-block;
+  float: left;
+  height: 40px;
+  width: 40px;
+  margin-top: 0px;
+  border-right: 1px solid #cacaca;
+  border-left: 1px solid #cacaca;
+  margin-left: 15px;
+  margin-right: 15px;
+  background-image: url("/images/dot.png");
+  background-repeat: no-repeat; }
+  .topbar-dot:hover {
+    background-image: url("/images/dot-hover.png"); }
+
+.search {
+  float: left;
+  margin-top: 5px;
+  display: inline-block; }
+
+.search-query {
+  display: inline-block;
+  width: 208px;
+  height: 27px;
+  margin-top: 0px;
+  border-radius: 5px;
+  color: #cacaca;
+  font-family: Helvetica;
+  font-size: 12px;
+  padding-left: 8px; }
+
+.explore {
+  display: inline-block;
+  font-family: Helvetica;
+  font-size: 14px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 15px;
+  padding-left: 10px;
+  height: 40px; }
+  .explore:hover {
+    color: #4183c4; }
+
+.gist {
+  display: inline-block;
+  font-family: Helvetica;
+  font-size: 14px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 15px;
+  padding-left: 10px;
+  height: 40px; }
+  .gist:hover {
+    color: #4183c4; }
+
+.blog {
+  display: inline-block;
+  font-family: Helvetica;
+  font-size: 13px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 15px;
+  padding-left: 10px;
+  height: 40px; }
+  .blog:hover {
+    color: #4183c4; }
+
+.help {
+  display: inline-block;
+  font-family: Helvetica;
+  font-size: 14px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 15px;
+  padding-left: 10px;
+  height: 40px; }
+  .help:hover {
+    color: #4183c4; }
+
+.door {
+  display: inline-block;
+  float: right;
+  height: 40px;
+  width: 40px;
+  margin-top: 10px;
+  margin-right: 180px;
+  background-image: url("/images/door.png");
+  background-repeat: no-repeat; }
+  .door:hover {
+    background-image: url("/images/door-hover.png"); }
+
+.tool {
+  display: inline-block;
+  float: right;
+  height: 40px;
+  width: 40px;
+  margin-right: -12px;
+  margin-top: 10px;
+  background-image: url("/images/tool.png");
+  background-repeat: no-repeat; }
+  .tool:hover {
+    background-image: url("/images/door-tool.png"); }
+
+.plus {
+  display: inline-block;
+  float: right;
+  height: 40px;
+  width: 40px;
+  margin-top: 10px;
+  margin-left: 15px;
+  margin-right: -10px;
+  background-image: url("/images/plus.png");
+  background-repeat: no-repeat; }
+  .plus:hover {
+    background-image: url("/images/door-plus.png"); }
