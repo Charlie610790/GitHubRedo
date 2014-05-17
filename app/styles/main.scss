@@ -95,7 +95,7 @@ a {
     background: red;
     margin-bottom: 35px;
     float: left;
-    background-image: url("/images/book.png");
+    background-image: url("../images/book.png");
     background-size: cover;
 }
 
@@ -144,7 +144,7 @@ a {
     display: inline-block;
     height:20px;
     width: 20px;
-    background-image: url("/images/star.png");
+    background-image: url("../images/star.png");
     background-size: cover;
     margin-left: 15px;
     float: right;
@@ -166,7 +166,7 @@ a {
 .fork {
     display: inline-block;
     float: right;
-    background-image: url("/images/fork.png");
+    background-image: url("../images/fork.png");
     background-size: cover;
     height:20px;
     width: 20px;
@@ -230,7 +230,7 @@ a {
     height: 20px;
     width: 20px;
     float: left;
-    background-image: url("/images/justme.png");
+    background-image: url("../images/justme.png");
     background-size: cover;  
     margin-right: 5px;
 }
@@ -240,7 +240,7 @@ a {
     height: 20px;
     width: 20px;
     float: left;
-    background-image: url("/images/mapdot.png");
+    background-image: url("../images/mapdot.png");
     background-size: cover; 
     margin-right: 5px; 
 }
@@ -250,7 +250,7 @@ a {
     height: 20px;
     width: 20px;
     float: left;
-    background-image: url("/images/maillogo.png");
+    background-image: url("../images/maillogo.png");
     background-size: cover; 
     margin-right: 5px; 
 }
@@ -260,7 +260,7 @@ a {
     height: 20px;
     width: 20px;
     float: left;
-    background-image: url("/images/linklogo.png");
+    background-image: url("../images/linklogo.png");
     background-size: cover;  
     margin-right: 5px;
 }
@@ -270,7 +270,7 @@ a {
     height: 20px;
     width: 20px;
     float: left;
-    background-image: url("/images/clocklogo.png");
+    background-image: url("../images/clocklogo.png");
     background-size: cover;  
     margin-right: 5px;  
 }
@@ -364,10 +364,10 @@ a {
     float: left;
     margin-top: 5px;
     margin-left: 200px;
-    background-image: url("/images/logo.png");
+    background-image: url("../images/logo.png");
     background-size: cover; 
         &:hover {
-                background-image: url("/images/logo-hover.png");
+                background-image: url("../images/logo-hover.png");
 
         }
 }
@@ -389,10 +389,10 @@ a {
     border-left: 1px solid #cacaca;
     margin-left: 15px;
     margin-right: 15px;
-    background-image: url("/images/dot.png");
+    background-image: url("../images/dot.png");
     background-repeat: no-repeat;
         &:hover {
-                background-image: url("/images/dot-hover.png");
+                background-image: url("../images/dot-hover.png");
 
         }
 }
@@ -482,10 +482,10 @@ a {
     width: 40px;
     margin-top: 10px;
     margin-right: 180px;
-    background-image: url("/images/door.png");
+    background-image: url("../images/door.png");
     background-repeat: no-repeat;
         &:hover {
-                background-image: url("/images/door-hover.png");
+                background-image: url("../images/door-hover.png");
         }
 }
 
@@ -496,10 +496,10 @@ a {
     width: 40px;
     margin-right: -12px;
     margin-top: 10px;
-    background-image: url("/images/tool.png");
+    background-image: url("../images/tool.png");
     background-repeat: no-repeat;
         &:hover {
-                background-image: url("/images/tool-hover.png");
+                background-image: url("../images/tool-hover.png");
         }
 }
 
@@ -512,10 +512,10 @@ a {
     margin-top: 10px;
     margin-left: 15px;
     margin-right: -10px;
-    background-image: url("/images/plus.png");
+    background-image: url("../images/plus.png");
     background-repeat: no-repeat;
         &:hover {
-            background-image: url("/images/plus-hover.png");
+            background-image: url("../images/plus-hover.png");
         }
 }
 
