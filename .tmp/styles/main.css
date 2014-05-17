@@ -321,7 +321,8 @@ a {
   margin-left: 15px;
   margin-right: 15px;
   background-image: url("../images/dot.png");
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-position: center center; }
   .topbar-dot:hover {
     background-image: url("../images/dot-hover.png"); }
 
@@ -431,4 +432,33 @@ a {
   .plus:hover {
     background-image: url("../images/plus-hover.png"); }
 
+.topuserfield {
+  display: inline-block;
+  float: right; }
 
+.topusername {
+  display: inline-block;
+  float: right;
+  text-decoration: none;
+  font-family: Helvetica;
+  font-size: 14px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 12px;
+  margin-left: -5px;
+  padding-left: 10px;
+  height: 40px; }
+  .topusername:hover {
+    color: #4183c4; }
+
+.topavatar {
+  display: inline-block;
+  float: right;
+  background-size: cover;
+  border-radius: 3px;
+  background-image: url("https://avatars.githubusercontent.com/u/7440065?");
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+  background-size: 100%;
+  margin-top: 10px; }
