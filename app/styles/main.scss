@@ -195,9 +195,11 @@ a {
 
 .footer {
     display: inline-block;
+    border-top: 1px solid #cacaca;
     height: 100px;
     width: 100%;
-    background: #cacaca;
+    max-width: 1080px;
+    margin: 0px auto;
 }
 
 .leftname { 
@@ -554,4 +556,61 @@ a {
     margin-left: 10px;
     background-size:100%;
     margin-top: 10px;
+}
+
+.footerLeft {
+    font-size: 12px;
+    color: #4183c4;
+    font-family: Helvetica;
+    line-height: 24px;
+    margin-top: 38px;
+    float: left;
+
+    ul
+        {
+        
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        }
+
+        li { 
+            display: inline;
+            padding-right: 10px;   
+             }
+    }
+
+.footerRight {
+    font-size: 12px;
+    color: #4183c4;
+    font-family: Helvetica;
+    line-height: 24px;
+    margin-top: 38px;
+    float: right;
+
+    ul
+        {
+        
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        }
+
+        li { 
+            display: inline;
+            padding-left: 10px;   
+             }
+    }
+
+.copyright {
+    display: inline-block;
+    font-family: Helvetica;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 12px;
+    color: #979797;
+    line-height: 24px;
+    margin-top: 38px;
+    margin-bottom: 14px;
+    float: left;
 }
