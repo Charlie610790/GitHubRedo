@@ -1,53 +1,57 @@
 body {
-  color: black;
   margin: 0px;
-  min-width: 1020px; }
+  min-width: 1020px;
+  color: black; }
 
 a {
   text-decoration: none;
   color: #4183c5; }
 
 .wrapper {
-  margin: 0px auto; }
+  margin: 0px auto;
+  margin-right: auto;
+  margin-left: auto; }
 
 .container {
-  margin: 0px auto; }
+  margin: 0px auto;
+  margin-right: auto;
+  margin-left: auto; }
 
 .leftcontainer {
   margin-left: 10px; }
 
 .topbar {
   background-image: linear-gradient(#f9f9f9, #f3f3f3);
-  height: 40px;
-  min-width: 1020px;
   margin-right: auto;
-  margin-left: auto; }
+  margin-left: auto;
+  min-width: 1020px;
+  height: 40px; }
 
 .maincontent {
-  width: 1020px;
   margin-right: auto;
-  margin-left: auto; }
+  margin-left: auto;
+  width: 1020px; }
 
 .sidebar {
   display: inline-block;
   float: left;
+  background: #fff;
   width: 25%;
-  height: 800px;
-  background: #fff; }
+  height: 800px; }
 
 .avatarimage {
+  margin-top: 20px;
+  background-size: 100%;
   background-size: cover;
-  border-radius: 7px;
   background-image: url("https://avatars.githubusercontent.com/u/7440065?");
   width: 230px;
   height: 230px;
-  background-size: 100%;
-  margin-top: 20px; }
+  border-radius: 7px; }
 
 .rightbar {
   display: inline-block;
   float: left;
-  margin-left: 25px;
+  margin-left: 5px;
   width: 70%; }
 
 .repotop {
@@ -61,15 +65,13 @@ a {
 
 .repoicon {
   display: inline-block;
-  height: 35px;
-  width: 39px;
-  margin-bottom: 20px;
-  margin-top: 16px;
-  background: red;
-  margin-bottom: 35px;
   float: left;
   background-image: url("../images/book.png");
-  background-size: cover; }
+  background-size: cover;
+  margin-top: 16px;
+  margin-bottom: 35px;
+  height: 35px;
+  width: 39px; }
 
 .repostuff {
   display: inline-block;
@@ -77,14 +79,14 @@ a {
 
 .repotitle {
   display: inline-block;
+  margin-top: 20px;
   background: #fff;
-  font-family: Helvetica;
   color: #4183c4;
   text-decoration: none;
+  font-family: Helvetica;
   font-size: 20px;
-  line-height: 32px;
   font-weight: bold;
-  margin-top: 20px; }
+  line-height: 32px; }
 
 .repobody {
   display: inline-block;
@@ -92,168 +94,168 @@ a {
 
 .repodescrip {
   display: block;
+  color: #333333;
   font-size: 13px;
-  line-height: 20px;
-  color: #333333; }
+  line-height: 20px; }
 
 .stargazers {
   display: inline-block;
-  font-family: Helvetica;
-  color: #666666;
-  text-decoration: none;
-  font-size: 11px;
-  font-weight: bold;
   float: right;
   margin-left: 1px;
-  margin-top: 33px; }
+  margin-top: 33px;
+  color: #666666;
+  text-decoration: none;
+  font-family: Helvetica;
+  font-size: 11px;
+  font-weight: bold; }
 
 .star {
   display: inline-block;
-  height: 20px;
-  width: 20px;
+  float: right;
   background-image: url("../images/star.png");
   background-size: cover;
   margin-left: 15px;
-  float: right;
-  margin-top: 28px; }
+  margin-top: 28px;
+  height: 20px;
+  width: 20px; }
 
 .forks {
   display: inline-block;
-  font-family: Helvetica;
-  color: #666666;
-  text-decoration: none;
-  font-size: 11px;
-  font-weight: bold;
+  float: right;
   margin-top: 33px;
   margin-left: 1px;
-  float: right; }
+  color: #666666;
+  text-decoration: none;
+  font-family: Helvetica;
+  font-size: 11px;
+  font-weight: bold; }
 
 .fork {
   display: inline-block;
   float: right;
   background-image: url("../images/fork.png");
   background-size: cover;
-  height: 20px;
-  width: 20px;
   margin-left: 15px;
-  margin-top: 28px; }
+  margin-top: 28px;
+  height: 20px;
+  width: 20px; }
 
 .language {
   display: inline-block;
-  font-family: Helvetica;
+  float: right;
+  margin-top: 33px;
   color: #666666;
   text-decoration: none;
+  font-family: Helvetica;
   font-size: 11px;
-  font-weight: bold;
-  float: right;
-  margin-top: 33px; }
+  font-weight: bold; }
 
 .repoupdatedat {
   display: block;
-  font-size: 11px;
+  margin-bottom: 14px;
   color: #999999;
-  line-height: 24px;
-  margin-bottom: 14px; }
+  font-size: 11px;
+  line-height: 24px; }
 
 .footer {
   display: inline-block;
+  margin-left: 100px;
+  max-width: 1080px;
   border-top: 1px solid #cacaca;
   height: 100px;
-  width: 100%;
-  max-width: 1080px;
-  margin: 0px auto; }
+  width: 100%; }
 
 .leftname {
-  font-size: 26px;
+  margin-top: 10px;
   line-height: 30px;
   font-weight: bold;
   font-family: Helvetica;
-  margin-top: 10px; }
+  font-size: 26px; }
 
 .leftusername {
-  font-size: 19px;
+  margin-bottom: 15px;
+  color: #cacaca;
   line-height: 24px;
   font-weight: 300;
   font-family: Helvetica;
-  margin-bottom: 15px;
-  color: #cacaca; }
+  font-size: 19px; }
 
 .leftfieldinfo {
-  font-family: Helvetica;
   padding: 4px 0 2px 4px;
   text-overflow: ellipsis;
-  font-size: 14px; }
+  font-size: 14px;
+  font-family: Helvetica; }
 
 .leftfieldsmallpic {
   display: inline-block;
-  height: 20px;
-  width: 20px;
   float: left;
+  margin-right: 5px;
   background-image: url("../images/justme.png");
   background-size: cover;
-  margin-right: 5px; }
+  height: 20px;
+  width: 20px; }
 
 .leftfieldsmallpic2 {
   display: inline-block;
-  height: 20px;
-  width: 20px;
-  float: left;
+  margin-right: 5px;
   background-image: url("../images/mapdot.png");
   background-size: cover;
-  margin-right: 5px; }
+  height: 20px;
+  width: 20px;
+  float: left; }
 
 .leftfieldsmallpic3 {
   display: inline-block;
-  height: 20px;
-  width: 20px;
   float: left;
+  margin-right: 5px;
   background-image: url("../images/maillogo.png");
   background-size: cover;
-  margin-right: 5px; }
+  height: 20px;
+  width: 20px; }
 
 .leftfieldsmallpic4 {
   display: inline-block;
-  height: 20px;
-  width: 20px;
   float: left;
+  margin-right: 5px;
   background-image: url("../images/linklogo.png");
   background-size: cover;
-  margin-right: 5px; }
+  height: 20px;
+  width: 20px; }
 
 .leftfieldsmallpic5 {
   display: inline-block;
-  height: 20px;
-  width: 20px;
   float: left;
+  margin-right: 5px;
   background-image: url("../images/clocklogo.png");
   background-size: cover;
-  margin-right: 5px; }
+  height: 20px;
+  width: 20px; }
 
 .bottomleftfieldinfo {
-  font-family: Helvetica;
+  margin-bottom: 18px;
   padding: 4px 0 2px 4px;
   text-overflow: ellipsis;
-  font-size: 14px;
-  margin-bottom: 18px; }
+  font-family: Helvetica;
+  font-size: 14px; }
 
 .leftfieldstats {
-  font-family: Helvetica;
-  padding: 13px 0 2px 4px;
-  text-overflow: ellipsis;
-  font-size: 14px;
-  border-top: 1px solid #cacaca;
   display: inline-block;
-  width: 230px;
   padding-bottom: 16px;
-  border-bottom: 1px solid #cacaca; }
+  padding: 13px 0 2px 4px;
+  font-size: 14px;
+  font-family: Helvetica;
+  text-overflow: ellipsis;
+  border-bottom: 1px solid #cacaca;
+  border-top: 1px solid #cacaca;
+  width: 230px; }
 
 .topleftfield {
-  font-family: Helvetica;
   margin-right: 50px;
-  text-overflow: ellipsis;
-  font-size: 14px;
   border-top: 1px solid #cacaca;
   padding-top: 17px;
+  font-family: Helvetica;
+  font-size: 14px;
+  text-overflow: ellipsis;
   width: 230px; }
 
 .followers {
@@ -287,10 +289,10 @@ a {
     color: #4183c4; }
 
 .leftfieldstatstext {
-  font-size: 11px;
   color: #cacaca;
   text-align: center;
-  font-family: Helvetica; }
+  font-family: Helvetica;
+  font-size: 11px; }
   .leftfieldstatstext:hover {
     color: #4183c4; }
 
@@ -308,23 +310,23 @@ a {
 
 .topbar-container {
   display: inline-block;
-  width: 1020px;
   margin-right: auto;
-  margin-left: auto; }
+  margin-left: auto;
+  width: 1020px; }
 
 .topbar-dot {
   display: inline-block;
   float: left;
-  height: 40px;
-  width: 40px;
-  margin-top: 0px;
   border-right: 1px solid #cacaca;
   border-left: 1px solid #cacaca;
   margin-left: 15px;
   margin-right: 15px;
+  margin-top: 0px;
   background-image: url("../images/dot.png");
   background-repeat: no-repeat;
-  background-position: center center; }
+  background-position: center center;
+  height: 40px;
+  width: 40px; }
   .topbar-dot:hover {
     background-image: url("../images/dot-hover.png"); }
 
@@ -335,24 +337,24 @@ a {
 
 .search-query {
   display: inline-block;
+  margin-top: 0px;
+  padding-left: 8px;
   width: 208px;
   height: 27px;
-  margin-top: 0px;
   border-radius: 5px;
   color: #cacaca;
   font-family: Helvetica;
-  font-size: 12px;
-  padding-left: 8px; }
+  font-size: 12px; }
 
 .explore {
   display: inline-block;
-  text-decoration: none;
-  font-family: Helvetica;
-  font-size: 14px;
-  text-align: center;
-  font-weight: bold;
   margin-top: 15px;
   padding-left: 10px;
+  text-decoration: none;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: bold;
   height: 40px; }
   .explore:hover {
     color: #4183c4; }
@@ -456,22 +458,22 @@ a {
 .topavatar {
   display: inline-block;
   float: right;
-  background-size: cover;
-  border-radius: 3px;
-  background-image: url("https://avatars.githubusercontent.com/u/7440065?");
-  width: 20px;
-  height: 20px;
+  margin-top: 10px;
   margin-left: 10px;
+  background-size: cover;
   background-size: 100%;
-  margin-top: 10px; }
+  background-image: url("https://avatars.githubusercontent.com/u/7440065?");
+  border-radius: 3px;
+  width: 20px;
+  height: 20px; }
 
 .footerLeft {
-  font-size: 12px;
-  color: #4183c4;
-  font-family: Helvetica;
-  line-height: 24px;
+  float: left;
   margin-top: 38px;
-  float: left; }
+  color: #4183c4;
+  font-size: 12px;
+  font-family: Helvetica;
+  line-height: 24px; }
   .footerLeft ul {
     margin: 0;
     padding: 0;
@@ -481,12 +483,12 @@ a {
     padding-right: 10px; }
 
 .footerRight {
-  font-size: 12px;
-  color: #4183c4;
-  font-family: Helvetica;
-  line-height: 24px;
+  float: right;
   margin-top: 38px;
-  float: right; }
+  color: #4183c4;
+  font-size: 12px;
+  font-family: Helvetica;
+  line-height: 24px; }
   .footerRight ul {
     margin: 0;
     padding: 0;
@@ -497,12 +499,12 @@ a {
 
 .copyright {
   display: inline-block;
-  font-family: Helvetica;
-  margin-right: 20px;
-  margin-left: 20px;
-  font-size: 12px;
-  color: #979797;
-  line-height: 24px;
+  float: left;
   margin-top: 38px;
   margin-bottom: 14px;
-  float: left; }
+  margin-right: 20px;
+  margin-left: 20px;
+  color: #979797;
+  font-family: Helvetica;
+  font-size: 12px;
+  line-height: 24px; }

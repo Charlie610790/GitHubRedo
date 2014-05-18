@@ -1,5 +1,5 @@
 var getNameTemplate = _.template($('.repo-row').text());
-$.getJSON('https://api.github.com/users/Charlie610790/repos?client_id=ae0cd330a00ca9c3c446&client_secret=a9ba76c532a3c0dca1907511ae377bee64532a47').done(function(repos){
+$.getJSON('https://api.github.com/users/Charlie610790/repos').done(function(repos){
     renderRepos(repos);
 });
 
@@ -13,7 +13,7 @@ function renderRepos (repos){
 }
 
 var getProfileTemplate = _.template($('.profile').text());
-$.getJSON('https://api.github.com/users/Charlie610790?client_id=ae0cd330a00ca9c3c446&client_secret=a9ba76c532a3c0dca1907511ae377bee64532a47').done(function(profile){
+$.getJSON('https://api.github.com/users/Charlie610790').done(function(profile){
     renderProfile(profile);
 });
 
@@ -22,9 +22,8 @@ function renderProfile (profile){
         $('.sidebar').append(rendered);
     }
 
-
 var getHeaderInfo = _.template($('.headerInfo').text());
-$.getJSON('https://api.github.com/users/Charlie610790?client_id=ae0cd330a00ca9c3c446&client_secret=a9ba76c532a3c0dca1907511ae377bee64532a47').done(function(header){
+$.getJSON('https://api.github.com/users/Charlie610790').done(function(header){
     renderHeader(header);
 });
 
@@ -32,22 +31,3 @@ function renderHeader (header){
         var rendered = getHeaderInfo(header);
         $('.topuserfield').append(rendered);
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
